@@ -27,7 +27,7 @@ public class GatewayServiceApplicationTests {
     private MockMvc mockMvc; // Used to simulate HTTP requests
 
     @MockBean
-    private APIGatewayService apiGatewayService; // Mock the ProductService
+    private APIGatewayService apiGatewayService; // Mock the ProductService for the service
     @Autowired
     private ObjectMapper objectMapper; // Used to convert Java objects to JSON and vice versa
 
